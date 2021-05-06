@@ -1,0 +1,23 @@
+.page {
+    flex-direction: column;
+    background-color: #153B44;
+    
+}
+
+body {
+    background-color: #153B44;
+    color: white;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    
+}
+
+
+
+
+

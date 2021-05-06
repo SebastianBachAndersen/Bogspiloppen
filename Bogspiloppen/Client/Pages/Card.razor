@@ -1,0 +1,20 @@
+﻿
+<div class="wrapper">
+    <h1>@header</h1>
+    <p>@body</p>
+</div>
+
+
+
+
+
+
+@code {
+
+    [Parameter]
+    public string header { get; set; } = "Overskrift";
+
+    [Parameter]
+    public string body { get; set; } = "Indhold";
+
+}

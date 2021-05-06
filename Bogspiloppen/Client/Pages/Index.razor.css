@@ -1,0 +1,12 @@
+﻿body {
+    color: white;
+}
+
+.wrapper {
+    padding: 10em;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, auto-fill);
+    grid-row-gap: 2em;
+}
