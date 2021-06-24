@@ -1,12 +1,16 @@
 ﻿body {
     color: white;
+    
 }
 
 .wrapper {
     padding: 10em;
-    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+}
+
+.wrapper div {
     width: 100%;
-    display: grid;
-    grid-template-rows: repeat(auto-fill, auto-fill);
-    grid-row-gap: 2em;
+    height: auto;
 }
