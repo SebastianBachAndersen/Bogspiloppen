@@ -11,7 +11,7 @@ body {
 
 
 .wrapper {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
     height: 100%;
     
