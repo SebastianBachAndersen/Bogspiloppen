@@ -1,0 +1,80 @@
+﻿body {
+    color: white;
+}
+
+.wrapper {
+    padding: 7.2em;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 1em;
+    line-height: 150%;
+    font-size: large;
+}
+
+.wrapperrow1 {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, auto-fill);
+    grid-row-gap: 2em;
+    justify-content: center;
+}
+
+.wrapperrow2 {
+    height: min-content;
+    width: auto;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, auto-fill);
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapperrow1 > div {
+    justify-self: center;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #74926A;
+    border-radius: 30px;
+    color: white;
+}
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+        border: solid 1px black;
+    }
+
+.button {
+    width: 500px;
+    height: 80px;
+    align-self: start;
+}
+
+
+.articlecard {
+    background-color: #2D6E7E;
+    border-radius: 30px;
+    color: white;
+    padding: 1em;
+    margin: 1em;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.underline {
+    content: ' ';
+    display: block;
+    border: 2px solid lightgray;
+}

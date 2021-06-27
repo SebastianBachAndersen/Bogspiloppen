@@ -42,7 +42,12 @@ a {
 
 
 .button {
-    width: 150px;
-    height: 250px;
-    vertical-align: central;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #74926A;
+    margin: auto;
+    color: white;
+    align-self: center;
 }

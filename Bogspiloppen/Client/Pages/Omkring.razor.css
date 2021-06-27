@@ -9,4 +9,5 @@
     display: grid;
     grid-template-rows: repeat(auto-fill, auto-fill);
     grid-row-gap: 2em;
+    font-size: large;
 }
