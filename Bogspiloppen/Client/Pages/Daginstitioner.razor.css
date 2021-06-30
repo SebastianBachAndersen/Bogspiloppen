@@ -29,11 +29,6 @@
     justify-content: center;
 }
 
-.wrapperrow1 > div {
-    justify-self: center;
-    width: 30%;
-    height: 50px;
-}
 
 a {
     width: 100%;
@@ -71,4 +66,26 @@ img {
     justify-self: center;
     width: 30%;
     height: 50px;
+}
+
+.instutwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    flex-direction: row;
+}
+
+.daginstut {
+    background-color: #2D6E7E;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
