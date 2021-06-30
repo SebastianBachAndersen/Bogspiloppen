@@ -67,12 +67,8 @@ img {
     border-radius: 30px;
 }
 
-button {
+.button {
+    justify-self: center;
     width: 30%;
     height: 50px;
-    border-radius: 30px;
-    text-align: center;
-    background-color: #74926A;
-    margin: auto;
-    color: white;
 }
