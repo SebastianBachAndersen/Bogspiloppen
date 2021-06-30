@@ -1,5 +1,6 @@
 ﻿body {
     color: white;
+    font-size: large;
 }
 
 .wrapper {
@@ -9,6 +10,7 @@
     display: grid;
     grid-template-columns: 70% 30%;
     grid-column-gap: 1em;
+    font-size: large;
 }
 
 .wrapperrow1 {
@@ -72,9 +74,9 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5px;
-    flex-direction: row;
+    font-size: medium;
 }
 
 .daginstut {
