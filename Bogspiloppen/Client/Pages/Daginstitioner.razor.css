@@ -65,9 +65,15 @@ img {
 }
 
 .button {
-    justify-self: center;
-    width: 30%;
-    height: 50px;
+    width: 800px;
+    height: 80px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #74926A;
+    margin: auto;
+    color: white;
+    align-self: center;
+    font-size: 200%;
 }
 
 .instutwrapper {
